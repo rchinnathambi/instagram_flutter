@@ -22,7 +22,7 @@ class Post {
   });
 
   Map<String, dynamic> toJson() => {
-        "userame": username,
+        "username": username,
         "uid": uid,
         "description": description,
         "postId": postId,

@@ -32,7 +32,7 @@ class FirestoreMethods {
         profImage: profImage,
         likes: [],
       );
-      _firestore.collection('posts').doc('postId').set(
+      _firestore.collection('posts').doc(postId).set(
             post.toJson(),
           );
       res = "success";
